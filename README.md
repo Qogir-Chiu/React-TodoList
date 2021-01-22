@@ -31,5 +31,9 @@ npm install serve -g
 cd ./build
 serve
 ```
+## 预览截图
+![截图1](https://github.com/Qogir-Chiu/React-TodoList/blob/master/screenshots/1.png)
+![截图2](https://github.com/Qogir-Chiu/React-TodoList/blob/master/screenshots/2.png)
+![截图3](https://github.com/Qogir-Chiu/React-TodoList/blob/master/screenshots/3.png)
 
-项目预览截图请见screenshots文件夹。
+见screenshots文件夹。
