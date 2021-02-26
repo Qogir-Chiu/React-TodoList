@@ -10,7 +10,9 @@ export default class Footer extends Component {
 
 	//清除已完成任务
 	handleClearAllDone = () => {
-		this.props.clearAllDone()
+		if(window.confirm('确定删除所有选中项？')){
+			this.props.clearAllDone()
+		}
 	}
 
 	render() {
