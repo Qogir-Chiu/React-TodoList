@@ -8,9 +8,8 @@ export default class App extends Component {
 
   state = {todos: [
     {id: '001', name: '学习React', done: false},
-    {id: '002', name: '学习Node.js', done: false},
-    {id: '003', name: '按时吃饭', done: false},
-    {id: '004', name: '早睡早起', done: false},
+    {id: '002', name: '按时吃饭', done: true},
+    {id: '003', name: '早睡早起', done: false},
   ],}
 
   //添加一个Todo项目
@@ -70,6 +69,7 @@ export default class App extends Component {
     const todos = this.state.todos;
     return (
       <div className="todo-container">
+				<div className="title">Todo List</div>
         <div className="todo-wrap">
           <Header addTodo={this.addTodo}/>
           <List todos={todos} updateTodo={this.updateTodo} deleteTodo={this.deleteTodo}/>
