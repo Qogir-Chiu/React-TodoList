@@ -1,7 +1,7 @@
 #React Demo: Todo List
 ---
 
-在有限时间内快速上手React后所写的一个简易demo。
+使用React框架编写的一个简易项目。
 
 ## 组件拆分
 - Header
